@@ -19,7 +19,7 @@ h1 {
 
 .navi {
 	list-style-type: none;
-	margin-left: 40%;
+	margin-left: 37%;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333333;
@@ -37,6 +37,7 @@ h1 {
 	padding: 16px;
 	text-decoration: none;
 	font-family: "mb-evilghost", Arial, san-serif;
+	font-size: 17px;
 }
 
 /* End Global Navigation Controls */
@@ -45,6 +46,7 @@ h1 {
 
 .MainPage_CtntCtl {
 	font-family: "mb-evilghost", Arial, san-serif;
+	font-size: 20px;
 	background: #333333;
 	color: #ffffff;
 	margin-left: 20%;
@@ -55,6 +57,7 @@ h1 {
 
 footer {
 	font-family: "mb-evilghost", Arial, san-serif;
+	font-size: 18px;
 	background: #333333;
 	color: #ffffff;
 	margin-left: 20%;
