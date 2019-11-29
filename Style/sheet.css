@@ -86,8 +86,8 @@ a:active {
 
 /* End Image */
 
-/* secondary content */
-
+/* Secondary content */
+/* NOTE: The margin-left and width properties must match the main content control and footer for consistancy */
 .SecondaryContent {
 	font-family: "mb-evilghost", Arial, san-serif;
 	font-size: 18px;
@@ -97,7 +97,7 @@ a:active {
 	width: 64%;
 	border: 2px solid #ffffff;
 }
-
+/* End secondary content */
 
 
 footer {
