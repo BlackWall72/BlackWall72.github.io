@@ -1,0 +1,25 @@
+#content_slider {
+	width: 100px;
+	height: 100px;
+	-webkit-animation-name: slideshow;
+	-webkit-animation-duration: 5s;
+	animation-name: slideshow;
+	animation-duration: 5s;
+	animation-delay: 2s;
+}
+
+@-webkit-keyframes slideshow {
+	0% {background-image: url('img1.png');}
+	25% {background-image: url('img2.png');}
+	50% {background-image: url('img3.png');}
+	75% {background-image: url('img4.png');}
+	100% {background-image: url('img5.png');}
+}
+
+keyframes slideshow {
+	0% {background-image: url('img1.pmg');}
+	25% {background-image: url('img2.png');}
+	50% {background-image: url('img3.png');}
+	75% {background-image: url('img4.png');}
+	100% {background-image: url('img5.png');}
+}
