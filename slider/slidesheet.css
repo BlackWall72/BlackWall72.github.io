@@ -1,25 +1,46 @@
 #content_slider {
-	width: 100px;
-	height: 100px;
+	/* Set image sizes */
+	width: 300px;
+	height: 300px;
+	/* End image sizes */
+	*/ Page specific margin controls */
+	float: center;
+	margin-left:33%;
+	margin-top: 1%;
+	*/ End page specific margin controls */
+/* Call the animation slide show for web kit based browsers */
 	-webkit-animation-name: slideshow;
-	-webkit-animation-duration: 5s;
+/* Set the animation duration for web kit based browsers */
+	-webkit-animation-duration: 15s;
+/* Set the animation delay for web kit based browsers */
+	-webkit-animation-delay: 2s;
+/* Loop the show for web kit based browsers */
+	-webkit-animation-iteration-count: infinite;
+/* Call the animation slide show */
 	animation-name: slideshow;
-	animation-duration: 5s;
+/* How long is the animation in total */
+	animation-duration: 15s;
+/* Wait 2s before starting */
 	animation-delay: 2s;
+/* Loop the show */
+	animation-iteration-count: infinite;
+	*/ Set the default image before the show starts */
+	background-image: url('placeholder.png');
+	border: 2px solid #ffffff;
 }
 
 @-webkit-keyframes slideshow {
 	0% {background-image: url('img1.png');}
-	25% {background-image: url('img2.png');}
-	50% {background-image: url('img3.png');}
-	75% {background-image: url('img4.png');}
+	35% {background-image: url('img2.png');}
+	60% {background-image: url('img3.png');}
+	85% {background-image: url('img4.png');}
 	100% {background-image: url('img5.png');}
 }
 
 keyframes slideshow {
 	0% {background-image: url('img1.pmg');}
-	25% {background-image: url('img2.png');}
-	50% {background-image: url('img3.png');}
-	75% {background-image: url('img4.png');}
+	35% {background-image: url('img2.png');}
+	60% {background-image: url('img3.png');}
+	85% {background-image: url('img4.png');}
 	100% {background-image: url('img5.png');}
 }
