@@ -1,0 +1,10 @@
+body {
+	background: #333333 url("/style/background.png") no-repeat ;
+	color: #ffffff;
+}
+
+h1 {
+	font-family: 'mb-evilghostregular', Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
