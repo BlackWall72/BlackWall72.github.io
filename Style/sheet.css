@@ -1,5 +1,5 @@
 body {
-	background: #333333 url("/style/background.png") no-repeat ;
+	background: #000000;
 	color: #ffffff;
 }
 
@@ -7,4 +7,24 @@ h1 {
 	font-family: 'mb-evilghostregular';
 	font-weight: normal;
 	font-style: normal;
+}
+
+.navi {
+	list-style-type: none;
+	margin-left: 40%;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+	width: 29% ;
+}
+.navi-item {
+	float: left;
+}
+
+.navi-a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
 }
