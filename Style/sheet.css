@@ -1,7 +1,7 @@
 @font-face {
 /* Figure out why TTF only works at root of web server */
 	font-family: 'mb-evilghost';
-	src: url('MB-EvilGhost_Font.ttf');
+	src: url('https://blackwall72.github.io/style/MB-EvilGhost_Font.ttf');
 }
 body {
 	background: #000000;
@@ -93,10 +93,11 @@ a:active {
 
 /* Set Images to line up in the middle of the page consistancy with the main content control or where required */
 
-.ImgStyle_About_AmeroGoth { margin-left: 34%;
+.ImgStyle_About_AmeroGoth { 
+		margin-left: 34%;
 	    border: 2px solid #ffffff;
 }
-
+/* Img Style About A Plus and Img Style ABout Security Plus work together to appear correctly in the page */
 .ImgStyle_About_A_Plus_Certified {
 		margin-left: 40%;
 		width: 150px;
@@ -106,6 +107,8 @@ a:active {
 		width: 150px;
 		height: 150px;
 		}
+/* End ImgStyle
+
 
 /* End Image */
 
