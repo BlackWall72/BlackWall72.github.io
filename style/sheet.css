@@ -78,11 +78,13 @@ a:active {
 /* End Link Style /*
 
 /* Footer Style */
-/* The footer style must remain synced with the main content control in Extra.CSS
+/* The footer style must remain synced with the main content control in extra.CSS
 	for both the margin-left and the width */
 footer {
 	font-family: "mb-evilghost", arial, san-serif;
 	font-size: 18px;
+	text-align: center;
+	padding-left: 20%;
 	color: #ffffff;
 	background: #000000;
 	width: 64%;
