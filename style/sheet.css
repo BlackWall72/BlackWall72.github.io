@@ -7,10 +7,16 @@ for application of global styles, for indivdual styles see extra.css */
 	src: url('https://blackwall72.github.io/style/MB-EvilGhost_Font.ttf');
 }
 /* End Global Font */
+/* Secondary Global Font */
+@font-face {
+	font-family: 'Chomsky';
+	src: url('https://blackwall72.github.io/style/Chomsky.otf');
+}
+/* End Secondary Global Font */
 
 /* Set Global Body Style */
 body {
-	font-family: "mb-evilghost", arial, san=serif;
+	font-family: "Chomsky", arial, san-serif;
 	background: #000000;
 	color: #ffffff;
 }
@@ -80,7 +86,7 @@ a:active {
 /* The footer style must remain synced with the main content control in extra.CSS
 	for both the margin-left and the width */
 footer {
-	font-family: "mb-evilghost", arial, san-serif;
+	font-family: "Chomsky", arial, san-serif;
 	font-size: 18px;
 	text-align: center;
 	color: #ffffff;
