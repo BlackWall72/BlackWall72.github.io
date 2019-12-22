@@ -1,7 +1,7 @@
 /* Global Style Sheet
 for application of global styles, for indivdual styles see extra.css */
 
-/* Set the Global Font */
+/* Import the Global Font */
 @font-face {
 	font-family: 'mb-evilghost';
 	src: url('https://blackwall72.github.io/style/MB-EvilGhost_Font.ttf');
