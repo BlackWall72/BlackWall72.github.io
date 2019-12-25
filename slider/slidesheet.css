@@ -5,8 +5,9 @@
 	/* End image sizes */
 	*/ Page specific margin controls */
 	float: center;
-	margin-left:33%;
+	margin-left:50%;
 	margin-top: 1%;
+	position: relative;
 	*/ End page specific margin controls */
 /* Call the animation slide show for web kit based browsers */
 	-webkit-animation-name: slideshow;
