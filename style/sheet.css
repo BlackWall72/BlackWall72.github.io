@@ -53,7 +53,7 @@ h1 {
 	color: #ffffff;
 	background: #000000;
 	text-align: center;
-	padding: 16px;
+	/* padding: 16px; */
 	text-decoration: none;
 	font-family: "mb-evilghost", arial, san-serif;
 	font-size: 17px;
@@ -61,6 +61,7 @@ h1 {
 /* End Global Navigation Controls Style */
 
 /* Link Style */
+/* Links appear regular, disappear when hovered, and go red when active */
 a:link {
 	color: #ffffff;
 	background: #000000;
