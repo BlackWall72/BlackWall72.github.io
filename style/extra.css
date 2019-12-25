@@ -15,8 +15,9 @@
 	font-size: 16px;
 	color: #ffffff;
 	background: #000000;
-	margin-left: 20%;
+	margin-left: 50%;
 	width: 64%;
+	position: relative;
 	border: 2px solid #ffffff;
 }
 /* End Main Content Control */
@@ -28,8 +29,9 @@
 	font-size: 14px;
 	color: #ffffff;
 	background: #000000;
-	margin-left: 20%;
+	margin-left: 34%;
 	width: 64%;
+	position: relative;
 	border: 2px solid #ffffff;
 }
 /* End Secondary Content Control */
@@ -44,6 +46,7 @@
 /* Amerogoth Image */
 .imgstyle_about_amerogoth {
 	margin-left: 34%;
+	position: relative;
 	border: 2px solid #ffffff;
 }
 /* End Amerogoth Image */
@@ -52,6 +55,7 @@
 /* A Plus Cerification */
 .imgstyle_about_a_plus_certified {
 	margin-left: 40%;
+	position: relative;
 	width: 150px;
 	height: 150px;
 }
