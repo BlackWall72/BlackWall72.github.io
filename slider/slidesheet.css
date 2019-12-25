@@ -25,7 +25,7 @@
 	animation-delay: 2s;
 /* Loop the show */
 	animation-iteration-count: infinite;
-	*/ Set the default image before the show starts */
+	/* Set the default image before the show starts */
 	background-image: url('placeholder.png');
 	border: 2px solid #ffffff;
 }
