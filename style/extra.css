@@ -23,7 +23,7 @@
 /* End Main Content Control */
 
 /* Secondary Content Control */
-/* Must remain synced witht the margin-left and width properties of the main content control */
+/* Must remain synced with the width properties of the main content control */
 .seccntctl {
 	font-family: "Chomsky", arial, san-serif;
 	font-size: 14px;
