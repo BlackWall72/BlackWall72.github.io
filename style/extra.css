@@ -23,7 +23,7 @@
 /* End Main Content Control */
 
 /* Secondary Content Control */
-/* Must remain synced with the width properties of the main content control */
+/* Must remain synced with the width properties of the main content control & footer */
 .seccntctl {
 	font-family: "Chomsky", arial, san-serif;
 	font-size: 14px;
@@ -38,6 +38,7 @@
 
 .imgstyle_logo {
 	position: relative;
+	margin-left: 0%;
 }
 
 /* End Re-Usable Styles */

@@ -86,7 +86,7 @@ a:active {
 /* End Link Style /*
 
 /* Footer Style */
-/* The footer style must remain synced with the main content control in extra.CSS
+/* The footer style must remain synced with the main content control and the secondary content control in extra.CSS
 	for both the margin-left and the width */
 footer {
 	font-family: "Chomsky", arial, san-serif;
