@@ -36,10 +36,16 @@
 }
 /* End Secondary Content Control */
 
+.imgstyle_logo {
+	margin-left: 0%;
+	position: relative;
+}
+
 /* End Re-Usable Styles */
 
 /* Begin Page Specific Styles */
 /* I.E. Non-Reusable Stuff */
+
 
 /* About the Author Page */
 
