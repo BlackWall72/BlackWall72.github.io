@@ -63,7 +63,7 @@ h1 {
 /* Link Style */
 /* Links appear regular, disappear when hovered, and go red when active */
 a:link {
-	color: #ffffff;
+	color: #F10F0F;
 	background: #000000;
 	text-decoration: none;
 }
