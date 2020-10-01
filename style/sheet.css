@@ -1,4 +1,4 @@
-/* Gobal Style Sheet
+/* Global Style Sheet
 for application of global styles, for indivdual styles see extra.css */
 
 /* Import the Global Accent Font mb-evilghost */
@@ -7,7 +7,7 @@ for application of global styles, for indivdual styles see extra.css */
 	src: url('https://blackwall72.github.io/style/MB-EvilGhost_Font.ttf');
 }
 /* End Global Font mb-evilghost  */
-/* Global Font Body Chomsky */
+/* Global Body Font Chomsky */
 @font-face {
 	font-family: 'Chomsky';
 	src: url('https://blackwall72.github.io/style/Chomsky.otf');
