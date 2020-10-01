@@ -51,7 +51,7 @@ h1 {
 .navi-a {
 	display: block;
 	color: #ffffff;
-	background: #000000 url("https://blackwall72.github.io/style/Bat.PNG") repeat 0 0;
+	/* background: #000000 url("https://blackwall72.github.io/style/Bat.PNG") repeat 0 0; */
 	text-align: center;
 	padding: 16px;
 	text-decoration: none;
@@ -64,7 +64,7 @@ h1 {
 /* Links appear regular, disappear when hovered, and go red when active */
 a:link {
 	color: #F10F0F;
-	background: #000000;
+	/* background: #000000; */
 	text-decoration: none;
 }
 
