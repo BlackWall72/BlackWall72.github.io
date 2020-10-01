@@ -24,6 +24,7 @@
 
 /* Secondary Content Control */
 /* Must remain synced with the width properties of the main content control & footer */
+/*  Barely used may look into removing from next commit/push */
 .seccntctl {
 	font-family: "Chomsky", arial, san-serif;
 	font-size: 14px;
