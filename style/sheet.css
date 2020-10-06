@@ -17,7 +17,7 @@ for application of global styles, for indivdual styles see extra.css */
 /* Set Global Body Style */
 body {
 	font-family: "Chomsky", arial, san-serif;
-	background: #000000;
+	background: #000000 url('https://blackwall72.github.io/style/skull.png') no-repeat;
 	color: #ffffff;
 }
 /* End Global Body */
@@ -44,9 +44,11 @@ h1 {
 	border: 2px solid #ffffff;
 }
 	
+ /* Required for Navigation to align properly */	
 .navi-item {
 	float: left;
 }
+/* End of requird align */
 
 .navi-a {
 	display: block;
@@ -64,23 +66,19 @@ h1 {
 /* Links appear regular, disappear when hovered, and go red when active */
 a:link {
 	color: #F10F0F;
-	/* background: #000000; */
 	text-decoration: none;
 }
 
 a:visited {
 	color: #ffffff;
-	background: #000000;
 }
 
 a:hover {
 	color: #000000;
-	background: #000000;
-}
+	}
 
 a:active {
 	color: #F10F0F;
-	background: #000000;
 }
 
 /* End Link Style /*
