@@ -17,8 +17,8 @@ for application of global styles, for indivdual styles see extra.css */
 /* Set Global Body Style */
 body {
 	font-family: "Chomsky", arial, san-serif;
-	background: #000000 url('https://blackwall72.github.io/style/skull.png') no-repeat center;
-	color: #ffffff;
+	background: #000000 url('https://blackwall72.github.io/style/skull.png') relative no-repeat center;
+	color: #F10F0F;
 }
 /* End Global Body */
 
@@ -53,7 +53,7 @@ h1 {
 .navi-a {
 	display: block;
 	color: #ffffff;
-	/* background: #000000 url("https://blackwall72.github.io/style/Bat.PNG") repeat 0 0; */
+	background: #000000 url("https://blackwall72.github.io/style/Bat.PNG") repeat 0 0;
 	text-align: center;
 	padding: 16px;
 	text-decoration: none;
@@ -63,14 +63,14 @@ h1 {
 /* End Global Navigation Controls Style */
 
 /* Link Style */
-/* Links appear regular, disappear when hovered, and go red when active */
+/* Links appear regular, disappear when hovered, and go white when active */
 a:link {
 	color: #F10F0F;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #ffffff;
+	color: #FFFFFF;
 }
 
 a:hover {
@@ -78,7 +78,7 @@ a:hover {
 	}
 
 a:active {
-	color: #F10F0F;
+	color: #FFFFFF;
 }
 
 /* End Link Style /*
@@ -91,7 +91,7 @@ footer {
 	font-family: "Chomsky", arial, san-serif;
 	font-size: 14px;
 	text-align: center;
-	color: #ffffff;
+	color: #F10F0F;
 	background: #000000;
 	width: 64%;
 	margin-left: 20%;
