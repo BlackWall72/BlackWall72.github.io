@@ -17,7 +17,8 @@ for application of global styles, for indivdual styles see extra.css */
 /* Set Global Body Style */
 body {
 	font-family: "Chomsky", arial, san-serif;
-	background:  url('https://blackwall72.github.io/style/skull.png') center no-repeat 0 0 relative #000000;
+	background-image: url('https://blackwall72.github.io/style/skull.png') 380px 570px center no-repeat 0 0 relative;
+	background-color: #000000;
 	color: #F10F0F;
 }
 /* End Global Body */
