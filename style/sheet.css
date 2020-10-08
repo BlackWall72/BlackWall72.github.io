@@ -41,7 +41,7 @@ h1 {
 	background: #000000 url("https://blackwall72.github.io/style/Bat.PNG") repeat 0 0;
 	width: 29%;
 	position: relative;
-	border: 2px solid #ffffff;
+	border: 2px solid #F10F0F;
 }
 	
  /* Required for Navigation to align properly */	
@@ -52,7 +52,7 @@ h1 {
 
 .navi-a {
 	display: block;
-	color: #ffffff;
+	color: #F10F0F;
 	background: #000000 url("https://blackwall72.github.io/style/Bat.PNG") repeat 0 0;
 	text-align: center;
 	padding: 16px;
@@ -97,6 +97,6 @@ footer {
 	margin-left: 20%;
 	margin-bottom: 0%;
 	position: relative;
-	border: 2px solid #ffffff;
+	border: 2px solid #F10F0F;
 }
 /* End Footer Style */
