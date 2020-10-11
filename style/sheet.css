@@ -41,7 +41,7 @@ h1 {
 	list-style-type: none;
 	margin-left: 37%;
 	overflow: hidden;
-	background: #000000 url("https://blackwall72.github.io/style/Bat.PNG") repeat 0 0;
+	background: #000000 url("https://blackwall72.github.io/style/Bat.PNG") repeat-y 0 0;
 	width: 29%;
 	position: relative;
 	border: 2px solid #F10F0F;
