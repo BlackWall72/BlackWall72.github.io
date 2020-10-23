@@ -39,7 +39,8 @@ h1 {
 /* Global Navigation Controls Style */
 .navi {
 	list-style-type: none;
-	margin-left: 37%;
+	margin-left: 40%;
+	/*Margin-left: 37% */
 	overflow: hidden;
 	background: #000000 url("https://blackwall72.github.io/style/Bat.PNG") repeat-x 0 0;
 	width: 19%;
