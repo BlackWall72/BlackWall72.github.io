@@ -42,6 +42,11 @@
 	margin-left: 0%;
 }
 
+/* Black Highlighting */
+/* Used to improve readability where scrolling isn't an option */
+.blk_highlight { background:#000000;}
+/*End Highlight code */
+
 /* End Re-Usable Styles */
 
 /* Begin Page Specific Styles */

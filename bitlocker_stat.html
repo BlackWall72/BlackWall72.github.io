@@ -18,16 +18,16 @@
 	<main>
 		<!-- Here is the main content area-->
 		<article class="maincntctl" id="MainContentControl">
-			<p>Bitlocker Status Script</p>
-			<p>Background: The reason behind this script is:</p>
-			<p>A)Sometimes the Windows GUI Glitches and won't give you a status while it's encrypting the drive.</p>
-			<p>B)If you are doing things remote without the desktop, say user is logged in and your using PSTools or something similar, you can't access the GUI</p>
-			<code> # Use Ctrl + C to Escape
+			<p class="blk_highlight">Bitlocker Status Script</p>
+			<p class="blk_highlight">Background: The reason behind this script is:</p>
+			<p class="blk_highlight">A)Sometimes the Windows GUI Glitches and won't give you a status while it's encrypting the drive.</p>
+			<p class="blk_highlight">B)If you are doing things remote without the desktop, say user is logged in and your using PSTools or something similar, you can't access the GUI</p>
+			<code class="blk_highlight"> # Use Ctrl + C to Escape
 			# This script MUST be Executed with Administrator Rights!
 			While($true){ manage-bde -status C: ; sleep 5 ; clear ; }
 			</code>
-			<p> You could also integrate a send keys to keep the pc awake while it's encrypting</p>
-			<code> # Use Crtl + C to Escape
+			<p class="blk_highlight"> You could also integrate a send keys to keep the pc awake while it's encrypting</p>
+			<code class="blk_highlight"> # Use Crtl + C to Escape
 			# This Script MUST be Executed with Administrator Rights!
 			$w = New-Object -com WScript.Shell # Load Com Object to Variable
 			While($true){ manage-bde -status C: ; sleep 5 ; $w.SendKeys("{F15}") ; clear ; }
