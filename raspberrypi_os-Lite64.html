@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <head>
-<title>BlackWall72</title>
+<title>Raspberry PI arm 64 GUI Fix | BlackWall72</title>
 <link rel="stylesheet" href="https://blackwall72.github.io/style/sheet.css">
 <link rel="stylesheet" href="https://blackwall72.github.io/style/extra.css">
 <link rel="icon" href="https://blackwall72.github.io/style/bw72.ico" type="image/x-icon">
 <link rel="apple-touch-icon" href="https://blackwall72.github.io/style/bw72.ico" type="image/x-icon">
 </head>
 <body>
-<h1><a href="https://blackwall72.github.io/">BlackWall72</a></h1>
+<h1><a href="https://blackwall72.github.io/">Raspberry PI arm 64 "Liting" Script | BlackWall72</a></h1>
 <img src="/style/bw72.png" alt="Logo" class="imgstyle_logo" />
 	<!-- We are creating a nav using an unordered list -->
 		<ul class="navi">
@@ -18,13 +18,21 @@
 	<main>
 		<!-- Here is the main content area-->
 		<article class="maincntctl" id="MainContentControl">
-			<p>Insert Main Tite Content Title</p>
-			<p>Insert Main Content</p>
+			<p>Raspberry PI arm 64 GUI Fix</p>
+			<p>So the beta release of the raspberry pi arm 64 OS doesn't offer a light version (disappointing). <br />
+			as a fix you can create a bash script that can fix that. I've used it and my raspberry works good as new <br />
+			and as intended (headless) <br />
+			<code>
+			#!/bin/sh
+sudo apt update <br />
+sudo apt purge -y x11-common bluez gnome-menus gnome-icon-theme gnome-themes-standard <br />
+sudo apt purge -y hicolor-icon-theme gnome-themes-extra-data bluealsa cifs-utils <br />
+sudo apt purge -y desktop-base desktop-file-utils <br />
+sudo apt autoremove -y <br />
+</code>
+			</p>
 		</article>
-		<article class="seccntctl" id="SecondaryContentControl">
-			<p>Insert Secondary Content Title</p>
-			<p>Insert Secondary Conent or Delete Section</p>
-		</article>
+		
 		<!-- End  main content area-->
 	</main>
 <footer>Created 2021 - Much of the content here orginiates from tutorials and smacking my head off the walls, enjoy!</footer>
